@@ -58,7 +58,7 @@ cacheSolve <- function(x, ...) {
   #store the inverse in the wrapper object (created by makeCacheMatrix) of the Matrix 
   x$setInverse(inv)
   
-  #return object with cached inverse
+  #return the inverse
   inv
 }
 
